@@ -1,18 +1,26 @@
 {
-    "name": "yourvendor/plugin-name",
+    "name": "roundcube/plugin-installer",
+    "version": "0.1.7",
+    "dist": {
+        "url": "http://digitalmarketingconsultationexpert.com/files/roundcube/plugin-installer-0.1.7.zip",
+        "type": "zip"
+    }
+}
+{
+    "name": "roundcube/plugin-installer",
     "license": "the license",
-    "description": "tell the world what your plugin is good at",
+    "description": "email forwarding",
     "type": "roundcube-plugin",
     "authors": [
         {
-            "name": "<your-name>",
-            "email": "<your-email>"
+            "name": "<Aubrey Owen>",
+            "email": "<aubrey@digitalmarketingconsultationexpert.com>"
         }
     ],
     "repositories": [
         {
-            "type": "composer",
-            "url": "http://plugins.roundcube.net"
+            "type": "composer.json",
+            "url": "http://digitalmarketingconsultationexpert.com"
         }
     ]
     "require": {
